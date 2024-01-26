@@ -19,8 +19,8 @@ function App() {
   ]
 
   return (
-    <main className='mx-6 pt-16 pb-10'>
-      <article className='bg-dark-grey py-8 px-6 rounded-lg'>
+    <main className='mx-6 pt-16 pb-10 md:flex md:justify-center lg:pt-24 lg:pb-[4.5rem]'>
+      <article className='bg-dark-grey py-8 px-6 rounded-lg md:w-[568px] lg:w-[468px] lg:px-10 lg:py-10'>
         <Avatar src={avatarJessica} alt='Jessica Randall' />
         <Title title='Jessica Randall' />
         <p className='text-green-c mb-6 font-semibold text-sm text-center'>
