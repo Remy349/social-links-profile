@@ -2,6 +2,7 @@ import avatarJessica from './assets/images/avatar-jessica.jpeg'
 import { Avatar } from './components/Avatar'
 import { Link } from './components/Link'
 import { Title } from './components/Title'
+import { useSEO } from './hooks/useSEO'
 
 type TLink = {
   id: number
@@ -17,6 +18,8 @@ function App() {
     { id: 4, name: 'Twitter', href: '#' },
     { id: 5, name: 'Instagram', href: '#' },
   ]
+
+  useSEO({ title: 'Social Links Profile' })
 
   return (
     <main className='mx-6 pt-16 pb-10 md:flex md:justify-center lg:pt-24 lg:pb-[4.5rem]'>
